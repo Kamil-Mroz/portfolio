@@ -15,10 +15,10 @@ const ErrorPage = () => {
   }
 
   return (
-    <div>
-      <h1>Oops!</h1>
-      <p>Sorry, a unexpected error has occurred.</p>
-      <p>{errorMessage}</p>
+    <div className="min-h-screen grid place-content-center">
+      <h1 className="text-3xl">Oops!</h1>
+      <p className="text-lg">Sorry, a unexpected error has occurred.</p>
+      <p className="text-lg">{errorMessage}</p>
     </div>
   )
 }
