@@ -1,18 +1,15 @@
-import { Alert, AlertDescription, AlertTitle } from './components/Alert'
-import { Terminal } from 'lucide-react'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import RootLayout from './routes/RootLayout'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+  },
+])
+
 function App() {
-  return (
-    <>
-      <Alert className="w-96">
-        <Terminal className="h-4 w-4" />
-        <AlertTitle>Heads up!</AlertTitle>
-        <AlertDescription>
-          You can add components and dependencies to your app using the cli.
-        </AlertDescription>
-      </Alert>
-      <h1>hello</h1>
-    </>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App
