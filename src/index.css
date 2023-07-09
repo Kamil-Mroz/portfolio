@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
+  :root,
+  .light {
     --background: 0 0% 100%;
     --foreground: 222.2 47.4% 11.2%;
 
@@ -78,4 +79,46 @@
     @apply bg-background text-foreground;
     font-feature-settings: 'rlig' 1, 'calt' 1;
   }
+}
+
+@layer components {
+  .link {
+    @apply py-2 relative px-1 focus-visible:outline-none focus-visible:ring-2
+    focus-visible:ring-transparent
+    focus-visible:ring-offset-2 
+    rounded-sm
+    cursor-pointer
+    focus-visible:ring-offset-violet-700;
+  }
+  .link::after,
+  .section-title::after {
+    @apply absolute h-1 w-full bg-transparent content-[''] bottom-0 left-0 transition duration-200;
+  }
+  .link:hover::after,
+  .link::after.active {
+    @apply bg-violet-700;
+  }
+  .icon {
+    @apply w-7 h-7;
+  }
+  .section {
+    @apply min-h-fullscreen  max-w-5xl px-8 lg:px-0 mx-auto py-16;
+  }
+  .section-title {
+    @apply text-violet-500 relative w-min text-3xl font-bold tracking-wider text-center mx-auto mb-8;
+  }
+  .section-title::after {
+    @apply bg-violet-500 -bottom-4;
+  }
+  .progress {
+    @apply p-2 flex justify-between shadow-xl dark:bg-gray-900  relative rounded overflow-hidden;
+  }
+  .progress::before {
+    @apply absolute content-[''] bg-violet-500 bottom-0  left-0 h-1;
+  }
+}
+
+.fancy-border {
+  border-radius: 50% 50% 59% 41% / 33% 15% 85% 67%;
+  overflow: hidden;
 }

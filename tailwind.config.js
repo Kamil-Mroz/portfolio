@@ -2,7 +2,7 @@ import { fontFamily } from 'tailwindcss/defaultTheme'
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ['class'],
+  darkMode: ['media', 'class'],
   content: ['./src/**/*.{js,ts,jsx,tsx}', 'index.html'],
   safelist: ['dark'],
   theme: {
@@ -14,6 +14,9 @@ module.exports = {
       },
     },
     extend: {
+      minHeight: {
+        fullscreen: 'calc(100vh - 56px)',
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -74,5 +77,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [require('tailwindcss-animate'), require('tailwind-scrollbar-hide')],
 }

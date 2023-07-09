@@ -1,23 +1,25 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import RootLayout from './routes/RootLayout'
-import ErrorPage from './Error-page'
-import Home from './routes/Home'
+import Portfolio1 from './components/portfolio1'
+
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
+
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <RootLayout />,
-    errorElement: <ErrorPage />,
+    element: (
+      <>
+        <Outlet />
+      </>
+    ),
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <Portfolio1 />,
       },
     ],
   },
 ])
 
-function App() {
+const App = () => {
   return <RouterProvider router={router} />
 }
-
 export default App
