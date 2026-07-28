@@ -10,4 +10,5 @@ export interface Project {
 	year: string;
 	role: string;
 }
+
 type repo = { href: string; name?: string };

@@ -15,15 +15,13 @@ export const PROJECTS = [
 			"WebSocket",
 			"PostgreSQL",
 		],
-		link: "#",
 		slug: "zero-waste",
 	},
 	{
-		title: "Quizzes",
+		title: "Inz",
 		description:
 			"A real-time live quiz platform enabling teachers to create quizzes and students to compete via PIN code with live leaderboards.",
 		tags: ["React", "TanStack Router", "Tailwind CSS"],
-		link: "#",
 		slug: "inz",
 	},
 	{
@@ -31,7 +29,6 @@ export const PROJECTS = [
 		description:
 			"A single-page personal site built with TanStack Router, React, and Tailwind CSS.",
 		tags: ["React", "TanStack Router", "Tailwind CSS"],
-		link: "#",
 		slug: "portfolio",
 	},
 ] as const;
@@ -87,7 +84,7 @@ export const PROJECTS_DETAILS: Project[] = [
 			"WebSocket",
 			"PostgreSQL",
 		],
-		link: "#",
+		link: "https://zw.kamilpm.com",
 		year: "2026",
 		role: "Solo",
 		repo: [
@@ -103,7 +100,7 @@ export const PROJECTS_DETAILS: Project[] = [
 	},
 	{
 		slug: "inz",
-		title: "inz",
+		title: "Inz",
 		description:
 			"A full-stack real-time live quiz platform for the Faculty of Computer Science at Białystok University of Technology, enabling teachers to create quizzes, host live sessions, and students to compete with instant leaderboards.",
 		longDescription:
@@ -125,7 +122,6 @@ export const PROJECTS_DETAILS: Project[] = [
 			"Zod v4",
 			"shadcn/ui",
 		],
-		link: "#",
 		year: "2026",
 		role: "Solo",
 		repo: { href: "https://github.com/Kamil-Mroz/inzynierka" },

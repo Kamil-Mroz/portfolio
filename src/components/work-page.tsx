@@ -19,7 +19,7 @@ export default function WorkPage() {
 					something new.
 				</p>
 
-				<div className="mt-16 grid gap-6 md:grid-cols-2">
+				<div className="mt-16 grid gap-6 lg:grid-cols-2">
 					{PROJECTS_DETAILS.map((project) => (
 						<ProjectCard key={project.slug} project={project} />
 					))}

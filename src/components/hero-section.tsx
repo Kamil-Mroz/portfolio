@@ -43,7 +43,7 @@ export default function HeroSection() {
 				<div className="mt-10 flex items-center justify-center gap-4">
 					<Link
 						to="/contact"
-						className="inline-flex items-center gap-2 rounded-full bg-[#A3E635] px-6 py-3 font-mono text-sm font-medium text-[#0A0A0A] transition-colors hover:bg-[#B8F050]"
+						className="inline-flex items-center gap-2 rounded-full bg-[#A3E635] px-6 py-3 font-mono text-sm font-medium text-background transition-colors hover:bg-[#B8F050]"
 					>
 						<EnvelopeIcon className="h-4 w-4" weight="fill" />
 						Get in touch
