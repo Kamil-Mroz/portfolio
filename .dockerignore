@@ -47,7 +47,4 @@ docker-compose.override.yml
 
 # Ignore build-specific cache files
 *.lock
-
-
-.tanstack/
 .github/
