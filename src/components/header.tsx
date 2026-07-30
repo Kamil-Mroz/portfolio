@@ -21,7 +21,7 @@ export default function Header() {
 		>
 			<div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
 				<Link to="/" className="font-mono text-sm font-bold text-[#A3E635]">
-					K.
+					Kamil.pm
 				</Link>
 				<div className="flex items-center gap-8">
 					<NavLink to="/work" label="Work" />
