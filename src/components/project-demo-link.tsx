@@ -1,5 +1,5 @@
 import { ArrowSquareOutIcon } from "@phosphor-icons/react";
-import type { Project } from "#/types";
+import type { Project } from "@/types";
 
 type ProjectDemoLinkProps = {
 	link: Project["link"];

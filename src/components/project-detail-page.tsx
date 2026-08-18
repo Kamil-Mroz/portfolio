@@ -1,7 +1,7 @@
 import { ArrowLeftIcon } from "@phosphor-icons/react";
 import { Link } from "@tanstack/react-router";
-import { Route } from "#/routes/work/$slug";
-import type { Project } from "#/types";
+import { Route } from "@/routes/work/$slug";
+import type { Project } from "@/types";
 import ProjectDemoLink from "./project-demo-link";
 import ProjectPreview from "./project-preview";
 import ProjectRepoLinks from "./project-repo-links";

@@ -1,5 +1,5 @@
 import { GithubLogoIcon } from "@phosphor-icons/react";
-import type { Project } from "#/types";
+import type { Project } from "@/types";
 
 type ProjectRepoLinks = {
 	links: Project["repo"];

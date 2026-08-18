@@ -1,4 +1,4 @@
-import { EXPERIENCES } from "#/constants";
+import { EXPERIENCES } from "@/constants";
 
 export default function ExperienceSection() {
 	return (
@@ -14,7 +14,9 @@ export default function ExperienceSection() {
 							<h3 className="text-xl font-semibold text-[#FAFAF9]">
 								{exp.role}
 							</h3>
-							<span className="font-mono text-sm  ">@ {exp.company}</span>
+							{exp.company && (
+								<span className="font-mono text-sm  ">@ {exp.company}</span>
+							)}
 						</div>
 						<p className="mt-1 font-mono text-xs  ">{exp.period}</p>
 						<p className="mt-3  ">{exp.description}</p>

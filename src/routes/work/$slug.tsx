@@ -1,6 +1,6 @@
 import { createFileRoute, notFound } from "@tanstack/react-router";
-import ProjectDetailPage from "#/components/project-detail-page";
-import { PROJECTS_DETAILS } from "#/constants";
+import ProjectDetailPage from "@/components/project-detail-page";
+import { PROJECTS_DETAILS } from "@/constants";
 
 export const Route = createFileRoute("/work/$slug")({
 	component: ProjectDetailPage,

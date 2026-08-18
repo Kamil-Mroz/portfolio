@@ -68,16 +68,17 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
 	{
-		role: "Help desk",
-		company: "",
+		role: "Helpdesk",
+		company:
+			"Provided first-line technical support, troubleshooting hardware and software issues, and configuring computers, printers, and user accounts. Customized an existing GLPI plugin in PHP to meet company requirements, improving equipment issuance report generation.",
 		period: "December 2025",
-		description: "What you did here. Write from the user's side of the screen.",
+		description: "",
 	},
 	{
 		role: "Student",
 		company: "Bialystok University of Technology",
 		period: "2022 - 2026",
-		description: "Engineer computer science",
+		description: "Computer Science Engineer ",
 	},
 ] as const;
 

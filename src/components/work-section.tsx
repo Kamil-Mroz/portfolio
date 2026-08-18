@@ -1,6 +1,6 @@
 import { ArrowSquareOutIcon } from "@phosphor-icons/react";
 import { Link } from "@tanstack/react-router";
-import { PROJECTS } from "#/constants";
+import { PROJECTS } from "@/constants";
 
 export default function WorkSection() {
 	return (

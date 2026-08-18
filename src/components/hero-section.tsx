@@ -34,11 +34,12 @@ export default function HeroSection() {
 			>
 				<HeroName />
 				<p className="mt-6 text-lg   sm:text-xl">
-					Developer · Designer · Builder
+					Full-stack Developer · Builder · Problem Solver
 				</p>
 				<p className="mx-auto mt-4 max-w-xl  ">
-					Fast, accessible interfaces with clean code and deliberate design.
-					Focused on React, TypeScript, and everything in between.
+					I build full-stack applications from frontend to backend, with a focus
+					on simple solutions, clean interfaces, and getting things working.
+					Mostly working with React, TypeScript, and Spring Boot.
 				</p>
 				<div className="mt-10 flex items-center justify-center gap-4">
 					<Link

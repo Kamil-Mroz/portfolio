@@ -2,9 +2,9 @@ import { createRootRoute, Outlet } from "@tanstack/react-router";
 import { useEffect } from "react";
 
 import "../styles.css";
-import Footer from "#/components/footer";
-import Header from "#/components/header";
-import HomeButton from "#/components/home-button";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
+import HomeButton from "@/components/home-button";
 
 export const Route = createRootRoute({
 	component: RootComponent,

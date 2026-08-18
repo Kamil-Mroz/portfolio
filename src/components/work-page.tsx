@@ -1,4 +1,4 @@
-import { PROJECTS_DETAILS } from "#/constants";
+import { PROJECTS_DETAILS } from "@/constants";
 import HomeButton from "./home-button";
 import ProjectCard from "./project-card";
 
@@ -14,9 +14,11 @@ export default function WorkPage() {
 					Work
 				</h2>
 				<p className="mt-6 max-w-xl  ">
-					A selection of projects I&apos;ve built - from solo experiments to
-					team collaborations. Each one solved a real problem or taught me
-					something new.
+					A selection of projects I&apos;ve built while learning and improving
+					as a developer from full-stack applications and real-time systems to
+					my own self-hosted infrastructure. Each project gave me an opportunity
+					to solve a real problem, learn something new, and build something I
+					can actually use.
 				</p>
 
 				<div className="mt-16 grid gap-6 lg:grid-cols-2">
