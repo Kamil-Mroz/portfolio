@@ -1,6 +1,6 @@
 import { ArrowSquareOutIcon } from "@phosphor-icons/react";
 import { Link } from "@tanstack/react-router";
-import type { Project } from "#/types";
+import type { Project } from "@/types";
 
 type ProjectCardProps = {
 	project: Project;
