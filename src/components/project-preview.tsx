@@ -1,3 +1,4 @@
+import { useIsMobile } from "@/hooks/useMobile";
 import type { Project } from "@/types";
 import {
 	Carousel,
@@ -11,23 +12,25 @@ type ProjectPreviewProps = {
 	images: NonNullable<Project["images"]>;
 };
 export default function ProjectPreview({ images }: ProjectPreviewProps) {
+	const isMobile = useIsMobile();
 	return (
-		<div className="px-10">
+		<div className="py-10 md:py-2 md:px-10">
 			<Carousel
 				opts={{
 					align: "start",
-					loop: true,
+					loop: false,
 				}}
 				className="w-full  mx-auto"
+				orientation={isMobile ? "vertical" : "horizontal"}
 			>
-				<CarouselContent>
+				<CarouselContent className="h-[55vh] sm:[65vh] md:h-auto]">
 					{images.map((image) => (
-						<CarouselItem className="" key={image.url}>
-							<div className="mt-6 aspect-video overflow-hidden rounded-xl bg-[#1A1A1A]">
+						<CarouselItem className="basis-full grid" key={image.url}>
+							<div className="overflow-hidden">
 								<img
 									src={image.url}
 									alt={image.alt}
-									className="h-full w-full object-cover"
+									className="h-full w-full object-contain"
 									loading="lazy"
 								/>
 							</div>

@@ -49,7 +49,7 @@ export default function ProjectDetailPage() {
 				) : null}
 			</div>
 			{project.images && project.images.length > 0 ? (
-				<div className="rounded-2xl border border-[#262626] bg-[#0F0F0F] p-8  mt-8">
+				<div className="rounded-2xl border border-[#262626] bg-[#0F0F0F] p-2 md:p-8  mt-8">
 					<p className="font-mono text-xs  ">02 - Preview</p>
 					<ProjectPreview images={project.images} />
 				</div>
