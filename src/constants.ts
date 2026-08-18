@@ -146,53 +146,53 @@ export const PROJECTS_DETAILS: Project[] = [
 		repo: { href: "https://github.com/Kamil-Mroz/inzynierka" },
 
 		images: [
-			{ url: "/admin-home.webp", alt: "Admin homepage" },
-			{ url: "/admin-dashboard.webp", alt: "Admin dashboard" },
+			{ url: "/admin-home.jpg", alt: "Admin homepage" },
+			{ url: "/admin-dashboard.jpg", alt: "Admin dashboard" },
 			{
-				url: "/admin-dashboard-search.webp",
+				url: "/admin-dashboard-search.jpg",
 				alt: "Admin dashboard with search",
 			},
 			{
-				url: "/admin-dashboard-type-filter.webp",
+				url: "/admin-dashboard-type-filter.jpg",
 				alt: "Admin dashboard filter by user type",
 			},
 			{
-				url: "/admin-dashboard-user-actions.webp",
+				url: "/admin-dashboard-user-actions.jpg",
 				alt: "Admin dashboard user account actions",
 			},
 			{
-				url: "/admin-dashboard-delete-user.webp",
+				url: "/admin-dashboard-delete-user.jpg",
 				alt: "Admin dashboard delete user modal",
 			},
-			{ url: "/login.webp", alt: "Login screen" },
-			{ url: "/teacher-home.webp", alt: "Teacher homepage" },
-			{ url: "/teacher-quiz-list.webp", alt: "Teacher quiz list page" },
-			{ url: "/teacher-new-quiz.webp", alt: "Teacher new quiz form" },
+			{ url: "/login.jpg", alt: "Login screen" },
+			{ url: "/teacher-home.jpg", alt: "Teacher homepage" },
+			{ url: "/teacher-quiz-list.jpg", alt: "Teacher quiz list page" },
+			{ url: "/teacher-new-quiz.jpg", alt: "Teacher new quiz form" },
 			{
-				url: "/teacher-user-joining-quiz.webp",
+				url: "/teacher-user-joining-quiz.jpg",
 				alt: "Teacher user joining quiz page",
 			},
 			{
-				url: "/teacher-user-waiting-room.webp",
+				url: "/teacher-user-waiting-room.jpg",
 				alt: "Teacher user start quiz",
 			},
 			{
-				url: "/teacher-user-answers-submission.webp",
+				url: "/teacher-user-answers-submission.jpg",
 				alt: "Teacher user answer submission screen",
 			},
 			{
-				url: "/teacher-user-in-between-questions.webp",
+				url: "/teacher-user-in-between-questions.jpg",
 				alt: "Teacher user in between questions",
 			},
 			{
-				url: "/teacher-user-quiz-finished.webp",
+				url: "/teacher-user-quiz-finished.jpg",
 				alt: "Teacher user final scoreboard",
 			},
 			{
-				url: "/teacher-quiz-results-review.webp",
+				url: "/teacher-quiz-results-review.jpg",
 				alt: "Teacher review quiz results",
 			},
-			{ url: "/user-home.webp", alt: "User homepage" },
+			{ url: "/user-home.jpg", alt: "User homepage" },
 		],
 	},
 	{
@@ -216,7 +216,7 @@ export const PROJECTS_DETAILS: Project[] = [
 		year: "2026",
 		role: "Solo",
 		repo: { href: "https://github.com/Kamil-Mroz/homelab" },
-		images: [{ url: "/homepage.webp", alt: "Dashboard of homepage" }],
+		images: [{ url: "/homepage.png", alt: "Dashboard of homepage" }],
 	},
 	{
 		slug: "portfolio",
