@@ -4,7 +4,7 @@ export const PROJECTS = [
 	{
 		title: "ZeroWaste",
 		description:
-			"A full-stack marketplace and eco-education platform with item trading, reviews, admin dashboard, and an eco-hub for blogs and quizzes - built with React, Spring Boot, and WebSocket support.",
+			"A demonstration eco-marketplace where users can give away unwanted items, browse listings, express interest in receiving them, and leave reviews after a successful exchange. The platform also includes user profiles, notifications, an Eco Hub with blog posts, and admin management tools.",
 		tags: [
 			"React",
 			"Spring Boot",
@@ -82,43 +82,45 @@ export const EXPERIENCES = [
 	},
 ] as const;
 
-
 export const PROJECTS_DETAILS: Project[] = [
 	{
-		slug: "zero-waste",
-		title: "ZeroWaste",
-		description:
-			"A full-stack eco-marketplace and education platform enabling users to trade items, write reviews, and learn sustainability content.",
-		longDescription:
-			"A full-stack application built with Spring Boot backend and React frontend. Features include a peer-to-peer marketplace with item listings, offers, and wishlist; user reviews system; admin dashboard for user and category management; eco-hub with blog posts and quizzes; real-time WebSocket notifications and a responsive UI build with Tailwind CSS with dark mode support.",
-		tags: [
-			"React",
-			"Spring Boot",
-			"Mockito",
-			"JUnit",
-			"RestTestClient",
-			"TanStack Router",
-			"Tailwind CSS",
-			"TypeScript",
-			"Zustand",
-			"WebSocket",
-			"PostgreSQL",
-		],
-		link: "https://zw.kamilpm.com",
-		year: "2026",
-		role: "Solo",
-		repo: [
-			{
-				href: "https://github.com/Kamil-Mroz/zero-waste-backend",
-				name: "Backend",
-			},
-			{
-				href: "https://github.com/Kamil-Mroz/zero-waste-frontend",
-				name: "Frontend",
-			},
-		],
-	},
-	{
+	slug: "zero-waste",
+	title: "ZeroWaste",
+	description:
+		"A demonstration eco-marketplace that allows users to give away unwanted items, connect with people interested in receiving them, and build trust through user reviews.",
+
+	longDescription:
+		"ZeroWaste is a full-stack demonstration application focused on promoting reuse and reducing waste. Users can create item listings with a title, description, condition, category, pickup city, visibility status, and up to five images. Other users can browse available items and express their interest in receiving them. Item owners can accept or reject offers, and once an offer is accepted, the item is marked as given while all other offers are automatically rejected. The interested user receives a real-time notification and can leave a star rating and written review after the exchange. User profiles provide an overview of their activity, including ratings, reviews, listed items, available and given-away items, and recent listings. The platform also includes an Eco Hub with blog posts that can be created, edited, and deleted by users with the Writer role. Administrators can manage user accounts and item categories. Authentication is supported through Google and GitHub.",
+
+	tags: [
+		"React",
+		"Spring Boot",
+		"Mockito",
+		"JUnit",
+		"RestTestClient",
+		"TanStack Router",
+		"Tailwind CSS",
+		"TypeScript",
+		"Zustand",
+		"WebSocket",
+		"PostgreSQL",
+	],
+
+	link: "https://zw.kamilpm.com",
+	year: "2026",
+	role: "Solo",
+
+	repo: [
+		{
+			href: "https://github.com/Kamil-Mroz/zero-waste-backend",
+			name: "Backend",
+		},
+		{
+			href: "https://github.com/Kamil-Mroz/zero-waste-frontend",
+			name: "Frontend",
+		},
+	],
+},{
 		slug: "inz",
 		title: "Inz",
 		description:
